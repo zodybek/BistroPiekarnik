@@ -34,6 +34,7 @@ ul {
 .main {
     height: 100vh;
     background-image: url('img/piekarnik_main.jpg');
+    background-size: cover;
     box-shadow: 0 0 20px black;
 }
 .socials {
@@ -313,8 +314,8 @@ footer p {
   .main {
     background-image: url(img/piekarnik_main.jpg);
     box-shadow: 0 0 20px black;
-    background-size: contain;
-    height: 30vh;
+    background-size: cover;
+    height: 25vh;
   }
 
   .main-navigation-mobile {
