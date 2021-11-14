@@ -74,12 +74,16 @@ ul {
   color: white;
   transition: color 0.3s ease;
   text-decoration: none;
-  font-family: Cookie, sans-serif;
+  font-family: SpotCookieRegular, sans-serif;
   font-style: normal;
   font-size: 38px;
 }
 .main-navigation a:hover {
   color: #ecc053;  
+}
+
+.main-text {
+  color: white;
 }
 
 .main-navigation-mobile {
@@ -109,12 +113,6 @@ ul {
 }
 .scrolling-active .logo {
   width: 10%;
-}
-
-.main h1 {
-    font-size: 80px;
-    text-shadow: 1px 1px 2px black;
-    padding-top: 150px;
 }
 
 /* .....................................O NAS........................................... */
