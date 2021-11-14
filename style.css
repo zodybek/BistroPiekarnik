@@ -65,14 +65,19 @@ h2 {
 
 /* .....................................O NAS........................................... */
 .o-nas {
-    width: 960px;
     margin: 0 auto;
     font-size: 20px;
+    background-color: #EDEDED;
 }
 .o-nas-main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+.o-nas-h2 {
+    margin: 0;
+    padding: 30px ;
 }
 .o-nas-main p, .o-nas-main img {
     justify-self: start;
@@ -103,6 +108,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+    margin:30px;
 }
 .o-nas-mocne li {
     font-size: 18px;
@@ -115,11 +121,8 @@ h2 {
 .menu {
     background-color: #2D2E32;
     color: white;
-    padding-bottom: 50px;
 }
-.menu h2 {
-    padding-top: 50px;
-}
+
 .menu p {
     max-width: 800px;
     margin: 15px auto;
