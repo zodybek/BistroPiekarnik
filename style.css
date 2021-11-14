@@ -200,83 +200,6 @@ ul {
 .menu-containter p {
     margin-top: 30px;
 }
-.menu-navigation {
-    margin: 30px 0 0 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-.menu-navigation div {
-    font-size: 1.2em;
-    cursor: pointer;
-    font-weight: bold;
-    color: black;
-    transition-duration: 0.5s;
-}
-.menu-navigation div:hover {
-    background-color: white;
-    color: black;
-}
-.menu-navigation-element {
-    background-color: #ecc053;
-    padding: 20px;
-    margin: 20px 20px 0 20px;
-    color: black;
-}
-.menu-displayed {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: center;
-}
-.menu-displayed-item {
-    width: 450px;
-    border: dashed 2px #ecc053;
-    text-align: left;
-    padding: 30px;
-    margin: 10px;
-}
-.menu-displayed-item h3 {
-    color: white;
-    font-family: Cookie;
-    font-style: normal;
-    font-size: 40px;
-    margin: 0;
-}
-.menu-displayed-item h4 {
-    margin-bottom: 0;
-}
-.menu-displayed-item span {
-    float: right;
-    color: #ecc053;
-    font-size: 18px;
-} 
-.food-item {
-    border-bottom: #ecc053 dashed 1px;
-    margin-top: 13px;
-}
-.food-item h4 {
-    color: #ecc053;
-    font-size: 22px;
-    display: inline;
-}
-.food-item p {
-    color: white;
-    margin-top: 10px;
-    font-weight: lighter;
-    font-size: 16px;
-}
-.dania-glowne {
-    /* display: none; */
-}
-.desery {
-    display: none;
-}
-.napoje {
-    display: none;
-}
-.dla-dzieci {
-    display: none;
-}
 
 /* .....................................GALERIA........................................... */
 .gallery-containter {
@@ -489,16 +412,33 @@ footer p {
   .o-nas-text {
     padding: 10px;
   }
-  
-  .o-nas-1 {
-      transform: rotate(3deg) perspective(1px) translateZ(0);
-      transition-duration: 0.3s;
-      transition-property: transform;
+
+  .socials {
+    display: none;
   }
 
-  .o-nas-2 {
-    transform: rotate(-3deg) perspective(1px) translateZ(0);
-    transition-duration: 0.3s;
-    transition-property: transform;
+  .scrolling-active {
+    margin: 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(45, 46, 50, 0.8);
+    height: 100px;
+    padding-top: 20px;
   }
+  .scrolling-active li a {
+    font-size: 20px;
+  }
+  .scrolling-active .logo {
+    width: 10%;
+  }
+  
+  .main h1 {
+      font-size: 80px;
+      text-shadow: 1px 1px 2px black;
+      padding-top: 150px;
+  }
+
 }
