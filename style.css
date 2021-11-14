@@ -323,6 +323,7 @@ footer p {
 
   .main-navigation-mobile ul {
     margin: 0 auto;
+    padding-top: 10px;
     text-align: center;
     position: fixed;
     z-index: 2;
