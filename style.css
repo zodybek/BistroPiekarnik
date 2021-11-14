@@ -341,7 +341,7 @@ footer p {
     list-style-type: none;
   }
 
-  .main-navigation-mobile li a{
+  .main-navigation-mobile li a {
     color: white;
     text-decoration: none;
     font-family: SpotCookieRegular, sans-serif;
@@ -350,7 +350,9 @@ footer p {
   }
 
 
-  .logo-mobile{
+  .logo-mobile {
+    display: inline-block;
+    vertical-align: middle;
     height: 40px;
   }
 
