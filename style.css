@@ -81,6 +81,11 @@ ul {
 .main-navigation a:hover {
   color: #ecc053;  
 }
+
+.main-navigation-mobile {
+  display: none;
+}
+
 .main h1 {
   font-size: 80px;
   text-shadow: 1px 1px 2px black;
@@ -303,16 +308,50 @@ footer p {
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   h2 {
-      font-size: 35px;
+    font-size: 35px;
   }
 
   .main {
-      background-image: url('img/piekarnik_main.jpg');
-      box-shadow: 0 0 20px black;
-      background-size: contain;
-      height: 55vh;
-      background-position-y: 220px;
-      background-repeat: no-repeat;
+    background-image: url(img/piekarnik_main.jpg);
+    box-shadow: 0 0 20px black;
+    background-size: contain;
+    height: 30vh;
+  }
+
+  .main-navigation-mobile {
+    display: inline;
+    color: white;
+  }
+
+  .main-navigation-mobile ul {
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(45, 46, 50, 0.8);
+    height: 70px;
+    width: 100%;
+  }
+  
+  .main-navigation-mobile li {
+    display: inline;
+    color: white;
+    margin: 5px;
+    list-style-type: none;
+  }
+
+  .main-navigation-mobile li a{
+    color: white;
+    text-decoration: none;
+    font-family: SpotCookieRegular, sans-serif;
+    font-style: normal;
+    font-size: 25px;
+  }
+
+
+  .logo-mobile{
+    height: 50px;
   }
 
   .main-text {
@@ -320,22 +359,12 @@ footer p {
   }
 
   .menu {
-      padding-bottom: 0px;
+    padding-bottom: 0px;
   }
 
   .menu-img {
-      margin-top: 10px;
-      max-width: 300px;
-  }
-
-  .socials {
-      text-align: right;
-      padding: 10px 10px;
-  }
-
-  .socials img {
-      margin-right: 10px;
-      margin-top: 10px;
+    margin-top: 10px;
+    max-width: 300px;
   }
 
   .o-nas-container {
@@ -417,28 +446,7 @@ footer p {
     display: none;
   }
 
-  .scrolling-active {
-    margin: 0 auto;
-    text-align: center;
-    transition: 0.5s;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgb(45, 46, 50, 0.8);
-    height: 100px;
-    padding-top: 20px;
+  .main-navigation {
+    display: none;
   }
-  .scrolling-active li a {
-    font-size: 20px;
-  }
-  .scrolling-active .logo {
-    width: 10%;
-  }
-  
-  .main h1 {
-      font-size: 80px;
-      text-shadow: 1px 1px 2px black;
-      padding-top: 150px;
-  }
-
 }
