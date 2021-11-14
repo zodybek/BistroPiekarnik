@@ -24,6 +24,10 @@ h2 {
     font-size: 60px;
 }
 
+ul {
+    margin: 0px auto
+}
+
 /* .....................................STRONA GŁÓWNA........................................... */
 
 .main {
@@ -75,7 +79,7 @@ h2 {
     grid-template-rows: 1fr 1fr;
 }
 
-.o-nas-h2 {
+.o-nas-header {
     margin: 0;
     padding: 30px ;
 }
@@ -104,11 +108,20 @@ h2 {
 .o-nas-2:hover {
     transform: scale(1.1);
 }
+
+.mocne-header {
+    display: inline-block
+}
+
+.mocne-header-mobile {
+    display: none
+}
 .o-nas-mocne {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    margin:30px;
+    margin: 0;
+    padding: 0px 30px 50px;
 }
 .o-nas-mocne li {
     font-size: 18px;
@@ -360,6 +373,10 @@ footer p {
         padding: 15px;
     }
 
+    .mocne-headre {
+        content: "Nasze mocne strony"
+    }
+
     .footer-container {
         display: flex;
         flex-direction: column;
@@ -391,5 +408,13 @@ footer p {
     .iframe {
         width: 300px;
         height: 300px 
+    }
+
+    .mocne-header {
+        display: none
+    }
+    
+    .mocne-header-mobile {
+        display: inline-block
     }
 }
