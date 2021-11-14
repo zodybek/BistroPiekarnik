@@ -317,7 +317,7 @@ footer p {
   }
 
   .main-navigation-mobile {
-    display: inline;
+    display: flex;
     color: white;
   }
 
